@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jpostcode/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'jpostcode'
+  spec.name          = 'jpostcode-ait'
   spec.version       = Jpostcode::VERSION
-  spec.authors       = ['kakipo']
-  spec.email         = ['kakipo@gmail.com']
+  spec.authors       = ['xuzh']
+  spec.email         = ['xzh@alpha-it-system.com']
 
-  spec.summary       = 'A Ruby implementation for Japan postcode.'
-  spec.description   = 'A Ruby implementation for Japan postcode.'
-  spec.homepage      = 'https://github.com/kakipo/jpostcode-rb'
+  spec.summary       = 'A Ruby implementation for Japan postcode a it.'
+  spec.description   = 'A Ruby implementation for Japan postcode .'
+  spec.homepage      = 'https://github.com/xuzh86/jpostcode-rb'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -30,12 +30,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.10'
-  spec.add_development_dependency 'guard'
-  spec.add_development_dependency 'guard-bundler'
-  spec.add_development_dependency 'guard-rubocop'
-  spec.add_development_dependency 'guard-rspec'
-  spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'pry-byebug'
+  spec.add_development_dependency 'guard', '~> 0'
+  spec.add_development_dependency 'guard-bundler', '~> 0'
+  spec.add_development_dependency 'guard-rubocop', '~> 0'
+  spec.add_development_dependency 'guard-rspec', '~> 0'
+  spec.add_development_dependency 'pry', '~> 0'
+  spec.add_development_dependency 'pry-byebug', '~> 0'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rspec', '~> 0'
 end
