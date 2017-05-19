@@ -7,7 +7,7 @@ A Ruby implementation for Japan postcode.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jpostcode'
+gem 'jpostcode-ait', require: 'jpostcode'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jpostcode
+    $ gem install jpostcode-ait
 
 ## Usage
 
@@ -73,7 +73,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kakipo/jpostcode-rb.
+Bug reports and pull requests are welcome on GitHub at https://github.com/xuzh86/jpostcode-rb.
 
 
 ## License
